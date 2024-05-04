@@ -11,19 +11,10 @@
 - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company.
 - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
 
-## Dataset
+## Loan Dataset
 
 ![Loan Dataset](Loan_image.png)
 
-Download the dataset from below. It contains the complete loan data for all loans issued through the time period 2007 t0 2011.
-
-[Loan Zip file](dataset/loan.zip)
-
-[Loan CSV file](dataset/loan.csv)
-
-You can access the data dictionary which describes the meaning of these variables from the provided link below:
-
-[Data dictionary for the fields used](dataset/Data_Dictionary.csv)
 
 ## Table of Contents
 
@@ -65,6 +56,8 @@ To develop your understanding of the domain, you are advised to independently re
 
 ## General Information
 
+Here we will be using EDA to understand how `consumer attributes` and `loan attributes` influence the tendency of default.
+
 - Steps for EDA :
 <ol>
     <li>Data Understanding</li>
@@ -76,38 +69,46 @@ To develop your understanding of the domain, you are advised to independently re
 </ol>
 - Data Set : Loan Lending Club loans
 
+Download the dataset from below. It contains the complete loan data for all loans issued through the time period 2007 t0 2011.
+
+[Loan Zip file](dataset/loan.zip)
+
+[Loan CSV file](dataset/loan.csv)
+
+You can access the data dictionary which describes the meaning of these variables from the provided link below:
+
+[Data dictionary for the fields used](dataset/Data_Dictionary.csv)
 
 ## Conclusion: 
 
-
 ### Continuous Variable:
 
-- Loans exceeding $15,000 exhibit a higher likelihood of borrower default.
-- Funding amounts surpassing $15,000 correlate with elevated default rates.
-- Investments exceeding $15,000 demonstrate a higher tendency for default.
+- `Loans` exceeding 15,000 exhibit a higher likelihood of borrower default.
+- `Funding amounts` surpassing 15,000 correlate with elevated default rates.
+- `Investments` exceeding 15,000 demonstrate a higher tendency for default.
 
 #### Interest Rate Influence:
 
-- A notable increase in default rates accompanies rising interest rates.
+- A notable increase in default rates accompanies rising `interest rates`.
 
 ##### Income and Debt-to-Income Ratio (DTI):
 
 - Elevated annual incomes correspond to reduced default rates.
-- Conversely, increasing DTI correlates with heightened default rates.
+- Conversely, increasing `DTI` correlates with heightened default rates.
 
 #### Influence of Academic Achievement and Income:
 
-- Higher incomes coupled with favorable academic performance typically result in fewer defaults.
+- Higher `incomes` coupled with favorable `academic performance` typically result in fewer defaults.
 
 #### Creditworthiness Assessment:
 
-- Grades and subgrades predominantly reflect the creditworthiness of borrowers.
+- `Grades` and `subgrades` predominantly reflect the creditworthiness of borrowers.
 
 ### Categorical Variable:
 
-- Loan terms of 60 months exhibit a higher default propensity compared to 36-month terms.
-- Default rates escalate as the grade (A, B, C, D, E, F, G) decreases.
-- Similarly, default rates rise with decreasing subgrade (A1, A2, B1, B2, etc.).
+- `Loan terms` of 60 months exhibit a higher default propensity compared to 36-month terms.
+- Default rates escalate as the `grade` (A, B, C, D, E, F, G) decreases.
+- Similarly, default rates rise with decreasing `subgrade` (A1, A2, B1, B2, etc.).
 
 #### Verification and Borrower Type:
 
@@ -116,8 +117,7 @@ To develop your understanding of the domain, you are advised to independently re
 
 #### Geographical Influence:
 
-- The percentage of defaulted loans is notably higher in states like NE and relatively elevated in NV and SD.
-
+- The percentage of defaulted loans is notably higher in states like `NE` and relatively elevated in `NV` and `SD`.
 
 
 ## Technologies Used
