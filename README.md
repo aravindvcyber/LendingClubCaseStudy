@@ -1,10 +1,10 @@
 # Lending Club Case Study
 
-**Lending Club is US based peer-to-peer consumer finance company founded in 2007.
+**Lending Club is US based peer-to-peer consumer finance company founded in 2007.**
 
-Lending Club specialises in lending various types of loans to urban customers.
+**It specialises in lending various types of loans to urban customers.**
 
-LendingClub matches borrowers with investors willing to fund their loans.**
+**It matches borrowers with investors willing to fund their loans.**
 
 > When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
 
@@ -15,9 +15,13 @@ LendingClub matches borrowers with investors willing to fund their loans.**
 
 ![Loan Dataset](Loan_image.png)
 
+Download the dataset from below. It contains the complete loan data for all loans issued through the time period 2007 t0 2011.
+
 [Loan Zip file](dataset/loan.zip)
 
 [Loan CSV file](dataset/loan.csv)
+
+You can access the data dictionary which describes the meaning of these variables from the provided link below:
 
 [Data dictionary for the fields used](dataset/Data_Dictionary.csv)
 
