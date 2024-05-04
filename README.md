@@ -72,46 +72,45 @@ To develop your understanding of the domain, you are advised to independently re
 </ol>
 - Data Set : Loan Lending Club loans
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusion: 
 
 
-## Continuous Variable:
+### Continuous Variable:
 
 - Loans exceeding $15,000 exhibit a higher likelihood of borrower default.
 - Funding amounts surpassing $15,000 correlate with elevated default rates.
 - Investments exceeding $15,000 demonstrate a higher tendency for default.
 
-## Interest Rate Influence:
+#### Interest Rate Influence:
 
 - A notable increase in default rates accompanies rising interest rates.
 
-## Income and Debt-to-Income Ratio (DTI):
+##### Income and Debt-to-Income Ratio (DTI):
 
 - Elevated annual incomes correspond to reduced default rates.
 - Conversely, increasing DTI correlates with heightened default rates.
 
-## Influence of Academic Achievement and Income:
+#### Influence of Academic Achievement and Income:
 
 - Higher incomes coupled with favorable academic performance typically result in fewer defaults.
 
-## Creditworthiness Assessment:
+#### Creditworthiness Assessment:
 
 - Grades and subgrades predominantly reflect the creditworthiness of borrowers.
 
-## Categorical Variable:
+### Categorical Variable:
 
 - Loan terms of 60 months exhibit a higher default propensity compared to 36-month terms.
 - Default rates escalate as the grade (A, B, C, D, E, F, G) decreases.
 - Similarly, default rates rise with decreasing subgrade (A1, A2, B1, B2, etc.).
 
-## Verification and Borrower Type:
+#### Verification and Borrower Type:
 
 - Verified borrowers tend to display a higher percentage of defaulted loans.
 - Small business borrowers are associated with a heightened default risk.
 
-## Geographical Influence:
+#### Geographical Influence:
 
 - The percentage of defaulted loans is notably higher in states like NE and relatively elevated in NV and SD.
 
