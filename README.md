@@ -79,6 +79,10 @@ You can access the data dictionary which describes the meaning of these variable
 
 [Data dictionary for the fields used](dataset/Data_Dictionary.csv)
 
+[Jupyter Notebook](Aravind_Vadamalaimuthu.ipynb)
+
+[Presentation PDF](Aravind_Vadamalaimuthu.pptx.pdf)
+
 ## Conclusion: 
 
 ### Continuous Variable:
