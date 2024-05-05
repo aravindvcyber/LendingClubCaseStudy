@@ -77,7 +77,7 @@ Download the dataset from below. It contains the complete loan data for all loan
 
 You can access the data dictionary which describes the meaning of these variables from the provided link below:
 
-[Data dictionary for the fields used](dataset/Data_Dictionary.csv)
+[Data dictionary for the fields used](dataset/Data_Dictionary.xlsx)
 
 [Jupyter Notebook](Aravind_Vadamalaimuthu.ipynb)
 
